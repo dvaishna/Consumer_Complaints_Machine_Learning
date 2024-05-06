@@ -1,4 +1,7 @@
 # Import necessary functions and types from PySpark
+import logging
+logging.basicConfig(level=logging.INFO, format='%(message)s')
+
 from pyspark.sql.functions import year, month, dayofmonth, count, col, when, lit, expr, explode, udf, trim
 from pyspark.sql.types import StringType, TimestampType, ArrayType, DoubleType
 from pyspark.ml.feature import Tokenizer, StopWordsRemover, CountVectorizer, IDF, RegexTokenizer
