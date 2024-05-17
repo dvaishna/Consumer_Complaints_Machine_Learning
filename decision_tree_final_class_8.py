@@ -219,7 +219,7 @@ print("Training Rows:", train_rows, " Testing Rows:", test_rows)
 
 #Model Building:
 #---------------
-"""Create a Random Forest model (RandomForestClassifier).
+"""Create a Desiscion Tree model (Decisiontree Classifier).
 Define a pipeline comprising the feature preprocessing stages and the model.
 Set up a ParamGridBuilder for hyperparameter tuning"""
 
