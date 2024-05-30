@@ -1,5 +1,10 @@
 # Consumer_Complaints_Machine_Learning
 
+## Abstract
+This project introduces the Consumer Feedback Insight & Prediction Platform, a system leveraging machine learning to analyze the extensive Consumer Financial Protection Bureau (CFPB) Complaint Database, a publicly available resource exceeding 4.9 GB in size. 
+The platform itself utilizes machine learning models to predict two key aspects of complaint resolution: the timeliness of company responses and the nature of those responses (e.g., closed, closed with relief etc.). 
+Furthermore, the platform employs Latent Dirichlet Allocation (LDA) to delve deeper, uncovering common themes within complaints and revealing underlying trends and consumer issues. This comprehensive approach empowers both consumers and regulators. Consumers gain valuable insights into potential response wait times, while regulators can utilize the platform's findings to identify areas where companies may require further scrutiny regarding their complaint resolution practices.
+
 ## Project Workflow
 To develop the Prediction Platform, we adopted a structured workflow encompassing data preparation, model training, and evaluation. </br>
 - Initially, we acquired the CFPB Complaint Database and performed meticulous data preprocessing. This involved removing irrelevant columns, handling missing values, and employing frequency encoding for categorical features like company, issue, and state. This reduced data complexity and optimized it for machine learning algorithms.
