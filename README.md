@@ -54,3 +54,12 @@ Results:
 - Notably, both models exhibited high recall scores (93% for RF and 95% for DT) for identifying instances of "closed with relief," indicating a robust capability for recognizing this outcome. For "closed with monetary relief," both RF (54%) and DT (57%) demonstrated a discernible capacity for identification, albeit with lower recall scores compared to "closed with relief."
 - An interesting finding is the trade-off observed in classifying "closed with explanation." While RF achieved a high recall score (88%), its precision (83%) suggests a higher rate of false positives compared to DT (83% recall, 90% precision). This implies that DT might miss some instances of "closed with explanation," but it produces more accurate classifications overall for this category.
 - Both models displayed minimal computational time, ensuring efficient processing. However, considering the slight advantage in recall scores and precision for key categories like "closed with explanation," the Decision Tree model emerged as the slightly more suitable choice for this multiclass classification task.
+
+#### Latent Dirichlet Allocation (LDA) for Topics Discovery
+Goal: To uncover underlying thematic structures within consumer complaint narratives. This approach, known as topic modeling, offers valuable insights into prevalent consumer financial concerns and areas requiring potential regulatory focus. LDA acts as a machine learning technique that identifies latent topics within a vast collection of documents, in this case, the 1.7 million consumer complaint narratives. By analyzing the most frequent words and phrases associated with each topic, we can gain a deeper understanding of the challenges consumers face.
+
+Results:
+LDA reveale 3 prominent topics related to complaints:
+1. Consumer Credit Reporting (Topic 0) - Encompassing issues like credit report inaccuracies or disputes regarding credit inquiries.
+2. Banking & Loans (Topic 2) - Issues with banking and loan amounts
+3. Mortgage-Related Matters (Topic 9) - Challenges with loan applications, servicing, or potential unfair lending practices.
